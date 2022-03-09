@@ -1,0 +1,18 @@
+{
+  "name": "sales-logger",
+  "version": "1.0.0",
+  "description": "Electron App for Logging sales into Deputy",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Chris Gemmell",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^17.0.0"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
