@@ -1,10 +1,10 @@
 const http = require("https");
 
 const options = {
-  "method": "GET",
+  "method": "POST",
   "hostname": "9c3e8103115452.au.deputy.com",
   "port": null,
-  "path": "/api/v1/supervise/metric/config",
+  "path": "/api/v1/supervise/metric/multiple",
   "headers": {
     "Content-Length": "0",
     "Authorization": "Bearer b71b13fbb5200bb282841078d76f3a98"
